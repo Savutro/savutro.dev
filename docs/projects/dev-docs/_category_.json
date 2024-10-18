@@ -1,0 +1,8 @@
+{
+  "label": "dev docs",
+  "position": 3,
+  "link": {
+    "type": "generated-index",
+    "description": "A project 1"
+  }
+}
