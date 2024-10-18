@@ -3,8 +3,8 @@ import type { Config } from '@docusaurus/types';
 import { themes as prismThemes } from 'prism-react-renderer';
 
 const config: Config = {
-  title: 'savutro.dev',
-  tagline: 'Website is under construction!',
+  title: 'Savutro',
+  tagline: 'Always seeking for personal growth on my journey to become a better version of myself.',
   favicon: 'img/favicon.ico',
   url: 'https://savutro.dev',
   baseUrl: '/',
@@ -21,6 +21,8 @@ const config: Config = {
     defaultLocale: 'en',
     locales: ['en'],
   },
+
+  plugins: ['docusaurus-plugin-sass'],
 
   presets: [
     [
@@ -41,7 +43,7 @@ const config: Config = {
           onUntruncatedBlogPosts: 'warn',
         },
         theme: {
-          customCss: './src/css/custom.css',
+          customCss: './src/css/custom.scss',
         },
       } satisfies Preset.Options,
     ],
@@ -62,7 +64,7 @@ const config: Config = {
       id: "infoBanner",
       content: "Website under construction!",
       backgroundColor: "turquoise",
-      textColor: "white",
+      textColor: "black",
       isCloseable: false,
     },
     navbar: {

@@ -1,0 +1,99 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;700&display=swap');
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+}
+
+:root {
+  --pk-blue: #0054ad;
+  --pk-green: #b8fb3c;
+
+  --ifm-color-primary: var(--pk-blue);
+  --ifm-color-primary-dark: #004c9c;
+  --ifm-color-primary-darker: #004793;
+  --ifm-color-primary-darkest: #003b79;
+  --ifm-color-primary-light: #005cbe;
+  --ifm-color-primary-lighter: #0061c7;
+  --ifm-color-primary-lightest: #006de1;
+  --ifm-code-font-size: 95%;
+  --ifm-font-family-base: "Fira Code", Consolas, "Courier New", monospace;
+  --ifm-font-size-base: 17px;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+
+  --ifm-footer-background-color: transparent;
+  --ifm-footer-padding-vertical: calc(var(--ifm-spacing-vertical) * 3);
+
+  --ifm-global-radius: 0.3rem;
+}
+
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+[data-theme="dark"] {
+  --ifm-color-primary: var(--pk-green);
+  --ifm-color-primary-dark: #adfa1e;
+  --ifm-color-primary-darker: #a7fa0e;
+  --ifm-color-primary-darkest: #8cd504;
+  --ifm-color-primary-light: #c3fc5a;
+  --ifm-color-primary-lighter: #c9fc6a;
+  --ifm-color-primary-lightest: #d9fd97;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+html[data-theme="dark"] {
+  --ifm-background-color: #101010;
+  --ifm-background-surface-color: #101010;
+
+  .navbar {
+    border-bottom: 1px solid var(--ifm-color-emphasis-200);
+  }
+}
+
+.footer {
+  border-top: 1px solid var(--ifm-color-emphasis-200);
+
+  &__bottom {
+    margin-top: 4rem;
+  }
+}
+
+.button--outline {
+  &:focus {
+    --ifm-button-background-color: var(--ifm-button-border-color);
+  }
+
+  &.button--primary:focus {
+    --ifm-button-color: var(--ifm-font-color-base-inverse);
+  }
+}
+
+.button__icon {
+  width: 18px;
+  height: 18px;
+  display: inline-block;
+  margin-right: 0.5rem;
+  position: relative;
+  top: 3px;
+  fill: var(--ifm-button-color);
+
+  .button--secondary & {
+    fill: var(--ifm-color-gray-900);
+
+    [data-theme="dark"] & {
+      fill: var(--ifm-font-color-base);
+    }
+  }
+
+  .button--outline:hover &,
+  .button--outline:active &,
+  .button--outline:focus &,
+  .button--outline.button--active & {
+    [data-theme="dark"] & {
+      fill: var(--ifm-font-color-base-inverse);
+    }
+  }
+}
