@@ -1,14 +1,17 @@
 import clsx from "clsx";
 import React, { FunctionComponent } from "react";
 import styles from "./AboutMe.module.scss";
+import AvatarFlip from "./AvatarFlip";
 
 export interface AboutMeProps {
-  avatar: string;
+  avatarFront: string;
+  avatarBack: string;
   descriptionComponent: React.ReactNode;
 }
 
 export const AboutMe: FunctionComponent<AboutMeProps> = ({
-  avatar,
+  avatarFront,
+  avatarBack,
   descriptionComponent,
 }) => {
   return (
@@ -18,8 +21,8 @@ export const AboutMe: FunctionComponent<AboutMeProps> = ({
         <div className="col col--6">{descriptionComponent}</div>
         <div className={clsx("col col--5", styles.avatarContainer)}>
           <div className={styles.avatar}>
-            <img src={avatar} />
-          </div>
+            <AvatarFlip frontImage={avatarFront} backImage={avatarBack} />
+          </div> 
         </div>
       </div>
     </div>
