@@ -10,7 +10,11 @@ const config: Config = {
   baseUrl: '/',
   organizationName: 'savutro',
   projectName: 'savutro.dev',
-  deploymentBranch: 'main',
+  customFields: {
+    domain: 'savutro.dev'
+  },
+  trailingSlash: false,
+  deploymentBranch: 'gh-pages',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
 
