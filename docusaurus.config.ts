@@ -100,7 +100,7 @@ const config: Config = {
           position: 'left',
           label: 'Learnings',
         },
-        { to: "/showcase", label: "Showcase", position: "right" },
+        { to: "/showcasePage", label: "Showcase", position: "right" },
         { to: "/cv", label: "CV", position: "right" },
         { to: '/blog', label: 'Blog', position: 'right' },
         {

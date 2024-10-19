@@ -1,7 +1,7 @@
-I&nbsp;write back-end applications in **Go** and modern front-ends using **TypeScript** (**React.js**). I design and implement **GraphQL**, **gRPC** and **REST** APIs.
+Since I was little I got really invested in technology. I remembered how my dad worked on a Comodore 64 at home. When I received my first GameBoy from cousin, it all started out. I wanted to understand the inner workings. 
 
-I&nbsp;work in a cloud-native environment in the "you build it, you run it" model. Apart from building microservices, I use and extend **Kubernetes**. I am both [Certified Kubernetes Application Developer](https://www.youracclaim.com/badges/4ef650a8-2c5d-48df-bdc7-d7bafdd9e4ec) and [Certified Kubernetes Administrator](https://www.youracclaim.com/badges/32059797-c35c-4c49-bcc3-d27268a530df).
+From then on I took part in several beginner courses during my school time to learn the basics of coding and robotics. It was then when I had my first touchpoints with **Arduinos** and **RaspberryPis**. 
 
-In 2018, I&nbsp;have completed a&nbsp;master's in Computer Science at Silesian University of Technology.
+After graduating from the "Gymnasium" I had to take a step back and start out doing things slowly, so I decided to invest my time in a shortened apprenticeship at **Swisscom (Schweiz) AG**
 
-I'm open source and cloud-native enthusiast. That's why I'm a&nbsp;co-organizer of the&nbsp;[Gophers Silesia](https://www.meetup.com/GophersSilesia) meetup, which is a&nbsp;local community interested in Go & cloud-native topics.
+Now that I completed that journey, I started a new one at **Bernmobil** where I'll take on the **development** and **operation** of several apps and components related to public transport.
