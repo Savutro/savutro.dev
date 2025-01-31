@@ -23,7 +23,15 @@ const config: Config = {
   // may want to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: 'en',
-    locales: ['en'],
+    locales: ['en', 'de'],
+    localeConfigs: {
+      en: {
+        htmlLang: 'en-GB',
+      },
+      de: {
+        htmlLang: 'de-CH',
+      }
+    }
   },
 
   plugins: ['docusaurus-plugin-sass'],
@@ -114,34 +122,26 @@ const config: Config = {
           'aria-label': 'GitHub Repository',
           html: '<i class="fab fa-github fa-xl"></i>'
         },
-        {
-          type: 'search',
-          position: 'right',
-        },
       ],
     },
     footer: {
       style: 'dark',
       links: [
         {
-          title: 'Docs',
+          title: 'About',
           items: [
             {
-              label: 'ttg',
+              label: 'Legal notice / Impressum',
               to: '/docs/intro',
             },
             {
-              label: 'dev-docs',
-              to: '/docs/intro',
-            },
-            {
-              label: 'zolaBlog',
+              label: 'Sources',
               to: '/docs/intro',
             },
           ],
         },
         {
-          title: 'Socials',
+          title: 'Follow me here',
           items: [
             {
               label: 'LinkedIn',
@@ -158,7 +158,7 @@ const config: Config = {
           ],
         },
         {
-          title: 'Shoutouts',
+          title: 'Check this out!',
           items: [
             {
               label: 'eza',

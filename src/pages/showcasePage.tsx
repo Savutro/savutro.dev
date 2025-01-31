@@ -1,22 +1,31 @@
 import Layout from "@theme/Layout";
 
 import { ProjectData, Showcase } from "../components/showcase/Showcase";
+import screen1 from "./assets/Screen1.png";
+import screen2 from "./assets/Screen2.png";
 import image from "./assets/image.png";
 
 const projects: ProjectData[] = [
   {
-    title: "TTG - Time-To-Go",
-    description: "A time tracker for your projects.",
-    url: "https://github.com/savutro/time-to-go",
-    image: image,
-    role: "Developer",
+    title: "savutro.dev",
+    description: "My personal webpage.",
+    url: "https://github.com/savutro/savutro.dev",
+    image: screen1,
+    role: "Owner / Developer",
   },
   {
-    title: "Savutro.dev",
-    description: "My personal webpage.",
-    url: "https://www.meetup.com/GophersSilesia",
+    title: "qr-code-awareness",
+    description: "A tiny website to teach people about this security issue.",
+    url: "https://github.com/savutro/qr-code-awareness",
+    image: screen2,
+    role: "Owner / Developer",
+  },
+  {
+    title: "ttg - time to go",
+    description: "A cli tool to track your time spend on projects.",
+    url: "https://github.com/savutro/time-to-go",
     image: image,
-    role: "Developer",
+    role: "Owner / Developer",
   },
 ];
 

@@ -7,18 +7,27 @@ import { AboutMe } from '../components/homepage/AboutMe';
 import { SocialLinkData, SocialLinks, } from '../components/homepage/SocialLinks';
 import styles from './index.module.scss';
 
+import { useState } from 'react';
 import AboutMeDesc from "./assets/_about-me.md";
 
-const avatarFront = "https://github.com/savutro.png";
-const avatarBack = "https://media.licdn.com/dms/image/v2/D5603AQGz_4jrcqempQ/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1691765746656?e=1734566400&v=beta&t=pmplNdikXvyngNpLmWiyHU752CTQODzH3cmvK2V3dQg";
-
+const avatarFront = "/img/avatar_front.jpg";
+const avatarBack = "/img/avatar_back.jpg";
 function HomepageHeader() {
   const { siteConfig } = useDocusaurusContext();
+  const [hovered, setHovered] = useState(false);
   return (
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
       <div className="container">
         <div className={styles.heroContent}>
-          <h1 className="hero__title">Hi, I'm <span className={clsx(styles.gradientText)}>{siteConfig.title}</span>,
+          <h1 className="hero__title">
+          Hi, I'm{" "}
+            <span
+              className={clsx(styles.gradientText)}
+              onMouseEnter={() => setHovered(true)}
+              onMouseLeave={() => setHovered(false)}
+            >
+              {hovered ? "Fabian" : siteConfig.title}
+            </span>,
             <br />
             Junior DevOps Engineer
           </h1>
@@ -47,7 +56,7 @@ const socialLinks: SocialLinkData[] = [
   },
   {
     name: "Twitter",
-    url: "https://twitter.com/savutro",
+    url: "https://x.com/savutro",
     svg: (
       <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
         <title>Twitter</title>

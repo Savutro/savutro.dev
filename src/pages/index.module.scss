@@ -1,8 +1,8 @@
 .heroBanner {
   padding: 6rem 0;
   text-align: center;
-  background: #000000;  /* This sets the background to pure black */
-  color: #fff;          /* White text for contrast */
+  background: #000000; 
+  color: #fff;      
   position: relative;
   overflow: hidden;
 }
@@ -30,6 +30,13 @@
   -webkit-text-fill-color: transparent;
 }
 
+.gradientText:hover {
+  background: linear-gradient(90deg, #ff2f00, #fefb37);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: color 0.3s ease-in-out;
+}
 
 @media screen and (max-width: 768px) {
   .heroBanner {
