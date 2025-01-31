@@ -118,8 +118,6 @@ const config: Config = {
         {
           href: 'https://github.com/savutro',
           position: 'right',
-          className: 'navbar-item-github',
-          'aria-label': 'GitHub Repository',
           html: '<i class="fab fa-github fa-xl"></i>'
         },
       ],
