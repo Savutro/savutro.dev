@@ -171,6 +171,13 @@ const config: Config = {
       theme: prismThemes.github,
       darkTheme: prismThemes.dracula,
     },
+    scripts: [
+      {
+        src: "https://static.cloudflareinsights.com/beacon.min.js",
+        defer: true,
+        "data-cf-beacon": `{"token": "${process.env.CF_ANALYTICS_BEACON}"}`,
+      },
+    ],
   } satisfies Preset.ThemeConfig,
 };
 
