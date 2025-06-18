@@ -1,7 +1,10 @@
 ---
 sidebar_position: 1
-title: Intro
+title: My Setup
 ---
 # How to setup my environment
+---
+### Sources
 
-## Structure
+### Disclaimer
+

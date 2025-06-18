@@ -1,9 +1,13 @@
-Hi there, I'm Fabian Afonso. For my online persona I go by the name Savutro. 
+Hey there, I'm Fabian Afonso — but online, I go by **Savutro**.
 
-Since I was little I got really invested in technology. I remembered how my dad did some "magical" stuff on his old computer and it was simply fascinating.
+Ever since I was a kid, technology had me hooked. I still remember watching my dad do what looked like *digital wizardry* on an old computer — and I was absolutely mesmerized. That spark never left.
 
-From then on I took part in several beginner courses during my school time to learn the basics of coding and robotics. It was then when I had my first touchpoints with **Arduinos** and **RaspberryPis**. 
+Fast forward a bit, I started diving into beginner coding and robotics courses during school. That’s where I first met my old friends: the **Arduino** and **Raspberry Pi**. From blinking LEDs to janky robot arms, it was love at first script.
 
-After graduating from the "Gymnasium" I decided to go for german language studies which in the end wasn't really mine. After this setback I started out doing things slowly, so I decided to invest my time in a shortened apprenticeship at **Swisscom (Schweiz) AG**. 
+After finishing up at the *Gymnasium*, I took a detour into German language studies — which, spoiler alert: wasn’t really my thing. Lesson learned.
 
-Now that I completed that journey, I started a new one at **Bernmobil** where I'll take on the **development** and **operation** of several apps and components related to public transport.
+So I hit reset, slowed things down, and jumped into a more hands-on path: a fast-tracked apprenticeship at **Swisscom (Schweiz) AG**. That’s where theory met practice and things finally started clicking.
+
+These days, I’ve leveled up to a new adventure at **Bernmobil**, where I’m helping shape the future of public transport through the development and operation of several internal apps and systems. 🚍💻
+
+> Still learning, still building, and occasionally still breaking stuff — on purpose, of course.

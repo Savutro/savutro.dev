@@ -1,14 +1,14 @@
 import Layout from "@theme/Layout";
 
 import { ProjectData, Showcase } from "../components/showcase/Showcase";
-import screen1 from "./assets/Screen1.png";
-import screen2 from "./assets/Screen2.png";
-import image from "./assets/image.png";
+import screen2 from "./assets/qr-aware.png";
+import screen1 from "./assets/savutro-dev.png";
+import ttgPic from "./assets/ttg.png";
 
 const projects: ProjectData[] = [
   {
     title: "savutro.dev",
-    description: "My personal webpage.",
+    description: "It's this very website you're currently on.",
     url: "https://github.com/savutro/savutro.dev",
     image: screen1,
     role: "Owner / Developer",
@@ -24,7 +24,7 @@ const projects: ProjectData[] = [
     title: "ttg - time to go",
     description: "A cli tool to track your time spend on projects.",
     url: "https://github.com/savutro/time-to-go",
-    image: image,
+    image: ttgPic,
     role: "Owner / Developer",
   },
 ];
