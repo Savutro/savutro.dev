@@ -2,3 +2,27 @@ info:
   label: Info
   permalink: /info
   description: General information broadcast regarding the state of the webpage.
+funny:
+  label: Funny
+  permalink: /funny
+  description: Humorous content, jokes, and light-hearted posts.
+tech:
+  label: Tech
+  permalink: /tech
+  description: Technical articles, programming tips, and technology news.
+life:
+  label: Life
+  permalink: /life
+  description: Personal experiences, lifestyle tips, and life lessons.
+news:
+  label: News
+  permalink: /news
+  description: Latest news updates, current events, and important announcements.
+tutorial:
+  label: Tutorial
+  permalink: /tutorial
+  description: Step-by-step guides, how-tos, and educational content.
+review:
+  label: Review
+  permalink: /review
+  description: Product reviews, service evaluations, and recommendations.
